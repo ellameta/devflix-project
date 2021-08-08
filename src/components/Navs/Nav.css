@@ -1,0 +1,90 @@
+.nav {
+    display: flex;
+    padding: 20px 90px;
+    background: #131313;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h2 {
+    color: #5091aa;
+    font-size: 2rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.favorites {
+    margin-right: 30px;
+    transition: 0.6s ease;
+}
+
+
+.favorites:hover {
+    transform: scale(1.1);
+}
+
+.signin-button {
+    padding: 10px;
+    background: rgb(245, 245, 245);
+    border-radius: 50px;
+    display: flex;
+    transition: 0.6s ease;
+    cursor: pointer;
+    color: rgb(17, 17, 17);
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    width: 7rem;
+}
+
+.signin-button:hover{
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+.menu {
+    align-items: center;
+}
+
+
+/*///// QUERIES //////*/
+
+
+
+
+@media screen and (max-width: 600px) {
+    .nav {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .logo h2 {
+        font-size: 1.2rem;
+    }
+
+    .favorites {
+        margin-right: 10px;
+    }
+
+    .heading {
+        padding: 0;
+        text-align: left;
+        font-size: 0.7rem;
+    }
+
+    .signin-button {
+        padding: 7px;
+        width: 90px;
+    }
+
+    .menu {
+        display: flex;
+        font-size: 0.7rem;
+    }
+}
+

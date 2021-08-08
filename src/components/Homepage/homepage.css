@@ -1,0 +1,239 @@
+/* Homepage */
+.homepage {
+    background: #1f1f1f;
+}
+
+/* Nav Homepage */
+
+.menu {
+    display: flex;
+}
+ 
+.discover {
+    transition: 0.6s ease;
+}
+
+.discover:hover {
+    transform: scale(1.1);
+}
+
+
+/* Hero Section */ 
+.hero-landing {
+    background-image: url(../assets/fast9.jpeg);
+    height: 620px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    position: absolute;
+    margin-top: 150px;
+    padding-left: 30px;
+}
+
+.hero-heading {
+    color: white;
+    width: 30%;
+    font-size: 2.7rem;
+}
+
+.hero-heading  h1{
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    width: 40%;
+    line-height: 25px;
+}
+
+.hero-span {
+    font-size: 1.3rem;
+    color: rgb(192, 192, 192);
+}
+
+.hero-description h3 {
+    color: #689fb6;;
+    font-size: 1.3rem;
+    margin-top: 7px;
+}
+
+
+
+
+
+/* Popular movies */
+.heading {
+    padding: 0 60px;    
+    margin-top: 40px;
+    color: rgb(238, 238, 238);
+}
+
+
+ul, 
+li {
+    list-style: none;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    min-height: 450px;
+    align-items: center;
+}
+
+.movie img {
+    border-radius: 2px;
+}
+
+.movie-hover {    
+    border-radius: 0 0 2px 2px;
+    background-color: #d4d4d4;
+    position: absolute;
+    transform: translateY(100%);
+    overflow: auto;
+    padding: 1.2rem;
+    bottom: 0;
+    transition: 0.1s ease-in-out;
+    left: 0;
+    max-height: 100%;
+    right: 0;
+}
+
+.movie:hover .movie-hover {
+    transform: translateY(0%);
+}
+
+.movie-card {
+    margin: 5px 10px;
+}
+
+.movie-title {
+    margin-bottom: 12px;
+    font-size: 1.6rem;
+}
+
+.movie-info {
+    line-height: 1.3rem;
+    color: rgb(61, 61, 61);
+}
+
+.hearticon {
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    margin: 10px 0;
+    color: #ffffff;
+    box-shadow: 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    display: flex;
+    overflow: auto;
+    transition: 0.5s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    transition: 0.4s ease;
+}
+
+button:disabled {
+  background-color: rgba(50, 87, 110, 0.212);
+  cursor: auto;
+}
+
+button:disabled h2 {
+    color: #d4d4d4;
+}
+
+
+
+/*//// QUERIES ////*/
+
+@media screen and (max-width: 1250px) {
+    .hero-heading {
+        width: 35%;
+        font-size: 2rem;
+    }
+    .hero-description {
+        width: 60%;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hero-landing {
+        height: 460px;
+    }
+
+    .hero-heading {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .hero-span {
+        font-size: 1rem;
+    }
+
+    .hero-description {
+        width: 80%;
+        line-height: 25px;
+    }
+    
+    .hero-description h3 {
+        font-size: 1rem;
+    }
+
+    .heading {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+    .w4 {
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-text {
+        padding-left: 10px;
+    }
+
+    .hero-heading {
+        font-size: 1rem;
+    }
+
+    .hero-span {
+        font-size: 0.9rem;
+    }
+
+    .heading {
+        font-size: 0.7rem;
+    }
+
+    .favorites {
+        font-size: 0.5rem;
+    }
+
+    .signin-button {
+        width: 70px;
+        font-size: 0.5rem;
+    }
+
+    .movie {
+        min-height: 250px;
+        max-width: 230px;
+        max-height: 330px;
+    }
+}

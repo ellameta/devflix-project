@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.signup-page {
+  background: linear-gradient(#1f1a3a, #315264);
+}
+
+a {
+  text-decoration: none;
+}
