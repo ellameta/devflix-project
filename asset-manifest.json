@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/devflix-project/static/css/main.76393aa1.chunk.css",
-    "main.js": "/devflix-project/static/js/main.f0daa984.chunk.js",
-    "main.js.map": "/devflix-project/static/js/main.f0daa984.chunk.js.map",
-    "runtime-main.js": "/devflix-project/static/js/runtime-main.bcb6d0b8.js",
-    "runtime-main.js.map": "/devflix-project/static/js/runtime-main.bcb6d0b8.js.map",
-    "static/css/2.400ad86f.chunk.css": "/devflix-project/static/css/2.400ad86f.chunk.css",
-    "static/js/2.b0859627.chunk.js": "/devflix-project/static/js/2.b0859627.chunk.js",
-    "static/js/2.b0859627.chunk.js.map": "/devflix-project/static/js/2.b0859627.chunk.js.map",
-    "static/js/3.18b46372.chunk.js": "/devflix-project/static/js/3.18b46372.chunk.js",
-    "static/js/3.18b46372.chunk.js.map": "/devflix-project/static/js/3.18b46372.chunk.js.map",
+    "main.js": "/devflix-project/static/js/main.6dbef4bc.chunk.js",
+    "main.js.map": "/devflix-project/static/js/main.6dbef4bc.chunk.js.map",
+    "runtime-main.js": "/devflix-project/static/js/runtime-main.eb7dcec7.js",
+    "runtime-main.js.map": "/devflix-project/static/js/runtime-main.eb7dcec7.js.map",
+    "static/css/2.6d7c7915.chunk.css": "/devflix-project/static/css/2.6d7c7915.chunk.css",
+    "static/js/2.9b3f0739.chunk.js": "/devflix-project/static/js/2.9b3f0739.chunk.js",
+    "static/js/2.9b3f0739.chunk.js.map": "/devflix-project/static/js/2.9b3f0739.chunk.js.map",
+    "static/js/3.561e2dfc.chunk.js": "/devflix-project/static/js/3.561e2dfc.chunk.js",
+    "static/js/3.561e2dfc.chunk.js.map": "/devflix-project/static/js/3.561e2dfc.chunk.js.map",
     "index.html": "/devflix-project/index.html",
-    "static/css/2.400ad86f.chunk.css.map": "/devflix-project/static/css/2.400ad86f.chunk.css.map",
+    "static/css/2.6d7c7915.chunk.css.map": "/devflix-project/static/css/2.6d7c7915.chunk.css.map",
     "static/css/main.76393aa1.chunk.css.map": "/devflix-project/static/css/main.76393aa1.chunk.css.map",
-    "static/js/2.b0859627.chunk.js.LICENSE.txt": "/devflix-project/static/js/2.b0859627.chunk.js.LICENSE.txt",
+    "static/js/2.9b3f0739.chunk.js.LICENSE.txt": "/devflix-project/static/js/2.9b3f0739.chunk.js.LICENSE.txt",
     "static/media/homepage.css": "/devflix-project/static/media/fast9.813d3aa7.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bcb6d0b8.js",
-    "static/css/2.400ad86f.chunk.css",
-    "static/js/2.b0859627.chunk.js",
+    "static/js/runtime-main.eb7dcec7.js",
+    "static/css/2.6d7c7915.chunk.css",
+    "static/js/2.9b3f0739.chunk.js",
     "static/css/main.76393aa1.chunk.css",
-    "static/js/main.f0daa984.chunk.js"
+    "static/js/main.6dbef4bc.chunk.js"
   ]
 }
