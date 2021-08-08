@@ -1,6 +1,6 @@
 {
   "homepage": "devflix-1.netlify.app",
-  "name": "./devflix-project",
+  "name": "devflix-project",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
