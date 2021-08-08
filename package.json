@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ellameta.github.io/devflix-project",
-  "name": "devflixproject",
+  "homepage": "devflix-1.netlify.app",
+  "name": "./devflix-project",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
